@@ -39,10 +39,10 @@ func main() {
 				}
 				riwayat = append(riwayat, fmt.Sprintf("%d / %d = %d\n", angka1, angka2, hasil))
 			}
+			fmt.Println("Hasilnya adalah :  ", hasil)
 		} else if menu == 5 {
-			for i := 0; i < len
-			(riwayat); i++ {
-				fmt.Println(riwariwayat[i])
+			for i := 0; i < len(riwayat); i++ {
+				fmt.Println(riwayat[i])
 			}
 		}
 	}
