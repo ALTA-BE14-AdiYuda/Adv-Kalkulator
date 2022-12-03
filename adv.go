@@ -21,6 +21,8 @@ func main() {
 	switch menu {
 	case 1:
 		hasil = angka1 + angka2
+	case 2:
+		hasil = angka1 - angka2
 
 	}
 
