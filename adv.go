@@ -14,5 +14,14 @@ func main() {
 	fmt.Println("9. EXIT")
 	fmt.Print("Masukkan Pilihan :  ")
 	fmt.Scanln(&menu)
+	fmt.Print("Masukkan Angka Pertama :  ")
+	fmt.Scanln(&angka1)
+	fmt.Print("Masukkan Angka Kedua :  ")
+	fmt.Scanln(&angka2)
+	switch menu {
+	case 1:
+		hasil = angka1 + angka2
+
+	}
 
 }
