@@ -25,7 +25,12 @@ func main() {
 		hasil = angka1 - angka2
 	case 3:
 		hasil = angka1 * angka2
-
+	case 4:
+		if angka2 == 0 {
+			hasil = 0
+		} else {
+			hasil = angka1 / angka2
+		}
 	}
 
 }
